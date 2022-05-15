@@ -6,7 +6,9 @@ body{
     margin:0;
     background-color: #f4f4f4;
 }
-
+.clr{
+    clear:both;
+}
 .container{
     width:80%;
     margin: auto;
@@ -40,16 +42,17 @@ header li{
 header #branding{
     float:left;
     position: relative;
+    /* border:2px solid blue; */
 }
 header #branding img {
     margin:0;
+    /* border:3px solid yellow; */
     display: inline;
 }
 header #branding h1{
-    display: inline-block;
-    left:54px;
-    position: absolute;
-    top: -19px;
+  display: inline;
+  position: relative;
+  bottom: 20px;
 }
 header nav{
     float:right;
@@ -130,6 +133,24 @@ header a:hover{
     border:1px solid black;
 }
 
+.container #main-col{
+    float:left;
+    width:70%;
+    box-sizing: border-box;
+}
+.container #sidebar{
+    float:right;
+    width:30%;
+    box-sizing: border-box;
+    margin-top:10px;
+    background-color: #092252;
+    color:rgb(252, 143, 0);
+    padding:10px;
+    text-align: justify;
+}
+.container #sidebar h3{
+    border-bottom: 2px dotted #fff;
+}
 footer{
     padding:20px;
     margin-top:20px;
