@@ -1,0 +1,140 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+header{
+    background-color: bisque;
+    color:black;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul {
+    padding:0;
+    margin:0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px;
+}
+
+header #branding{
+    float:left;
+    position: relative;
+}
+header #branding img {
+    margin:0;
+    display: inline;
+}
+header #branding h1{
+    display: inline-block;
+    left:54px;
+    position: absolute;
+    top: -19px;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#ccc;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background:url('../images/showcase.jpg') no-repeat ;
+    background-position: center center;
+    text-align: center;
+    color:white;
+}
+
+#showcase h1{
+    font-size:55px;
+    margin-top:100px;
+    margin-bottom: 10px;;
+}
+
+#showcase  p{
+    font-size: 20px;
+}
+
+#newsletter {
+   padding:15px;
+   background-color: #354;
+   color:#fff;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top:24px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+    border: none;
+}
+
+.button_1{
+    height:38px;
+    background-color: #e4a907;
+    border:none;
+    padding: 0 20px;
+    color:white;
+}
+
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    width:33.3%;
+    box-sizing: border-box;
+    padding:10px;
+    text-align: center;
+}
+#boxes .box img{
+    width:100px;
+    border:1px solid black;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#fff;
+    background-color: #d15f40;
+    text-align: center;
+}
+
